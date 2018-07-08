@@ -1,0 +1,27 @@
+
+<!Doctype html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title></title>
+    <style>
+      .calc-wrapper{width:245px; background:#BACFFC;}
+      .pre-result{text-align:right; height:px;}
+      .formula{font-size:20px;text-align:right; height:45px;}
+      
+    </style>
+  </head>
+  <body>
+    <div class="calc-wrapper">
+      <div class="pre-result" id="result"></div>
+      <div class="formula" id="formula"></div>
+      <div class="buttons">
+        <button>7</button><button>8</button><button>9</button><button>+</button><br/>
+        <button>4</button><button>5</button><button>6</button><button>-</button><br/>
+        <button>1</button><button>2</button><button>3</button><button>*</button><br/>
+        <input type="button" value="=" onclick="showResult()" /><button>0</button><button>.</button><button>/</button><br/>
+      </div>
+    </div>
+    <script src="calc.js"></script>
+  </body>
+</html>
